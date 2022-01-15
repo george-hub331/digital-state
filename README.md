@@ -1,7 +1,5 @@
 Digital States React Site
 
-
-
 # Getting Started with Create React App
 Install NPM
 This project was bootstrapped with [Create React App].
