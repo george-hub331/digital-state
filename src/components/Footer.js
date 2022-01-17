@@ -3,7 +3,7 @@ const Footer = () => {
         <div>
             <footer className="2sm:hidden footer-web footer-bg bg-[#e9ffe9d4] block pt-[80px] pb-[40px]">
                 <div className="footer-content w-[92%] max-w-[1300px] text-left m-auto">
-                    <div className="leading-0 text-0 p-0 m-0 border-box w-full footer-box flex justify-around tracking-normal flex-row-reverse max-w-[700px]">
+                    <div className="leading-0 text-0 p-0 m-0 border-box w-full footer-box flex justify-between tracking-normal flex-row-reverse max-w-[700px]">
                         <div className="4sm:w-full 4sm:text-center lg:w-[calc(100% / 3)] footer-item text-[14px] inline-block align-top text-left mt-[20px] w-contain">
                             <div className="footer-logo text-[24px] text-[#ccc] leading-[1] ">
                                 <a href="#" className="text-[#8c8889] no-underline">Digital States</a>
