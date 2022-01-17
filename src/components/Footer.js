@@ -1,10 +1,10 @@
 const Footer = () => {
     return (
         <div>
-            <footer className="2sm:hidden footer-web footer-bg bg-[#b8d4b8d4] block pt-[80px] pb-[40px]">
+            <footer className="2sm:hidden footer-web footer-bg bg-[#e9ffe9d4] block pt-[80px] pb-[40px]">
                 <div className="footer-content w-[92%] max-w-[1300px] text-left m-auto">
-                    <div className="leading-0 text-0 p-0 m-0 border-box w-full footer-box flex justify-between tracking-normal flex-row-reverse max-w-[700px]">
-                        <div className="4sm:w-full 4sm:text-center lg:w-[calc(100% / 3)] footer-item text-[14px] inline-block align-top text-left mt-[20px] w-[calc(100%/6.1)]">
+                    <div className="leading-0 text-0 p-0 m-0 border-box w-full footer-box flex justify-around tracking-normal flex-row-reverse max-w-[700px]">
+                        <div className="4sm:w-full 4sm:text-center lg:w-[calc(100% / 3)] footer-item text-[14px] inline-block align-top text-left mt-[20px] w-contain">
                             <div className="footer-logo text-[24px] text-[#ccc] leading-[1] ">
                                 <a href="#" className="text-[#8c8889] no-underline">Digital States</a>
                             </div>
@@ -35,12 +35,12 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-foot mt-[70px]">
-                        <p className="foot-first inline-block text-[12px] m-0 text-[#bfbdbd]">
+                        <p className="foot-first inline-block text-[12px] m-0 text-[#8c8889]">
 
-                            <a href="#" className="text-[#bfbdbd] mr-[20px]">Privacy Policy</a>
-                            <a href="#" className="text-[#bfbdbd] mr-[20px]">User Agreement</a>
+                            <a href="#" className="text-[#8c8889] mr-[20px]">Privacy Policy</a>
+                            <a href="#" className="text-[#8c8889] mr-[20px]">User Agreement</a>
                         </p>
-                        <p className="foot-last float-right inline-block m-0 text-[#bfbdbd] text-[12px]">© 2022 Digital States. All rights reserved.</p>
+                        <p className="foot-last float-right inline-block m-0 text-[#8c8889] text-[12px]">© 2022 Digital States. All rights reserved.</p>
                     </div>
                 </div>
             </footer>
