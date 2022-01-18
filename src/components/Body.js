@@ -11,8 +11,7 @@ const Body = () => {
   </section>
 
 
-
-    <section className="2xl:max-w-[1300px] 2xl:mx-auto 2xl:mt-[30px] 2xl:mb-[60px] 2xl:w-[90%] 2xl:overflow-hidden 2xl:border-box xl:mt-[40px] sm:w-[82%] w-[90%] overflow-hidden max-w-[1300px] my-auto border-box content-container content-detail-container">
+      <section className="mx-auto 2xl:max-w-[1300px] py-[30px] mt-[30px] mb-[60px] 2xl:w-[90%] 2xl:overflow-hidden 2xl:border-box xl:mt-[40px] sm:w-[82%] w-[90%] overflow-hidden max-w-[1300px] my-auto border-box content-container content-detail-container">
 
     <div className="my-[20px]">
     <h2 className="mb-10 text-[20px] text-xl text-[500]">About</h2>
