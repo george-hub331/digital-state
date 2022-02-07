@@ -1,9 +1,10 @@
-import banner from '../Desert.jpg';
-
+import banner from '../images/Desert.jpg';
+import image1 from '../images/3.png';
+import image2 from '../images/4.png';
+import image3 from '../images/5.png';
 const Body = () => {
   return (
     <div className="clear-space">
-
       <section style={{'backgroundImage': `url(${banner})`}} className="3sm:pt-[95px] md:h-[240px] md:pt-[9
         0px] 3xl:h-[340px] 3xl:pt-[145px] before:absolute before:content-[''] before:w-full before:h-full before:left-0 before:top-0 before:z-[1] before:bg-[rgba(10,124,0,81%)] h-[400px] align-center bg-cover content-banner bg-center border-box pt-[160px] relative">
         
@@ -31,8 +32,31 @@ const Body = () => {
     </span>
     </div>
 
-    </section>
+    <h2 className="mb-10 text-[20px] text-xl text-[500]">Zones</h2>
 
+    <div className="my-[20px] w-full flex overflow-x-scroll h-auto zones">
+      
+
+          <a className="flex w-[240px] h-fit rounded-[1rem]  flex-col hover:bg-[#ebebeb] transition-background delay-900 bg-[#f5f5f5] p-[10px] m-[10px] min-w-[240px] no-underline" target="_blank" rel="noreferrer" href="#">
+          <div className="w-full rounded-[1rem] overflow-hidden">
+          <img src={image1} alt="North-Central"/></div>
+          <p className="w-full text-center text-black font-bold mt-[10px]">North Central</p>
+        </a>
+
+          <a className="flex w-[240px] h-fit rounded-[1rem]  flex-col hover:bg-[#ebebeb] transition-background delay-900 bg-[#f5f5f5] p-[10px] m-[10px] min-w-[240px] no-underline" target="_blank" rel="noreferrer" href="#">
+          <div className="w-full rounded-[1rem] overflow-hidden">
+            <img src={image2} alt="North-West"/></div>
+          <p className="w-full text-center text-black font-bold mt-[10px]">North West</p>
+        </a>
+
+          <a className="flex w-[240px] h-fit rounded-[1rem]  flex-col hover:bg-[#ebebeb] transition-background delay-900 bg-[#f5f5f5] p-[10px] m-[10px] min-w-[240px] no-underline" target="_blank" rel="noreferrer" href="#">
+          <div className="w-full rounded-[1rem] overflow-hidden">
+          <img src={image3} alt="East"/></div>
+          <p className="w-full text-center text-black font-bold mt-[10px]">East</p>
+        </a>
+
+    </div>
+    </section>
 </div>
 
   );
