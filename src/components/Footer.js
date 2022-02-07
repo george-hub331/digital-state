@@ -31,6 +31,19 @@ const Footer = () => {
                                     <a className="no-underline text-[#8c8889]" target="_blank" 
                                         rel="noreferrer" href="https://northeast.digitalstates.ng/">North East</a>
                                 </li>
+
+                                <li className="mt-[16px] list-none p-0 m-0 border-box">
+                                    <a className="no-underline text-[#8c8889]" target="_blank"
+                                        rel="noreferrer" href="https://east.digitalstates.ng/">East</a>
+                                </li>
+                                <li className="mt-[16px] list-none p-0 m-0 border-box">
+                                    <a className="no-underline text-[#8c8889]" target="_blank"
+                                        rel="noreferrer" href="https://northwest.digitalstates.ng/">North West</a>
+                                </li>
+                                <li className="mt-[16px] list-none p-0 m-0 border-box">
+                                    <a className="no-underline text-[#8c8889]" target="_blank"
+                                        rel="noreferrer" href="https://northcentral.digitalstates.ng/">North Central</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -69,6 +82,20 @@ const Footer = () => {
                                 <li className="h-[48px] text-left pl-[38px] mt-0 m-0 p-0 border-box list-none">
                                     <a className="block w-full h-full text-[#8c8889] no-underline" target="_blank"
                                     rel="noreferrer" href="https://northeast.digitalstates.ng/">North East</a>
+                                </li>
+                                <li className="h-[48px] text-left pl-[38px] mt-0 m-0 p-0 border-box list-none">
+                                    <a className="block w-full h-full text-[#8c8889] no-underline" target="_blank"
+                                        rel="noreferrer" href="https://east.digitalstates.ng/">East</a>
+                                </li>
+
+                                <li className="h-[48px] text-left pl-[38px] mt-0 m-0 p-0 border-box list-none">
+                                    <a className="block w-full h-full text-[#8c8889] no-underline" target="_blank"
+                                        rel="noreferrer" href="https://northwest.digitalstates.ng/">North West</a>
+                                </li>
+
+                                <li className="h-[48px] text-left pl-[38px] mt-0 m-0 p-0 border-box list-none">
+                                    <a className="block w-full h-full text-[#8c8889] no-underline" target="_blank"
+                                        rel="noreferrer" href="https://northcentral.digitalstates.ng/">North Central</a>
                                 </li>
                             </ul>
                         </div>
